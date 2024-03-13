@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles-index.css" />
+    <link rel="stylesheet" href="../styles/styles-mediaqueys.css">
+    <title>Login - Spotify</title>
+  </head>
+  <body>
+    <form action="" id="mainForm">
+      <img src="../imgs/logo-spotity.png" alt="" />
+
+      <h1>Spotify</h1>
+      <nav>
+        <a href="#" id="linkSign1">SIGN IN</a>
+        <a href="#" id="linkSign2">SIGN UP</a>
+      </nav>
+
+      <br />
+      <label id="label1" for="name-input" class="labels">Username</label>
+      <input
+        id="name-input"
+        type="text"
+        value="Username"
+        class="inputs"
+      /><br />
+
+      <label for="pass-input" class="labels" id="label2">Password</label>
+      <input
+        type="text"
+        name="password"
+        id="pass-input"
+        value="Password"
+        class="inputs"
+      />
+      <br />
+
+      <input type="checkbox" name="checkbox" id="input-check" class="checks1" />
+      <label for="input-check" class="checks2">stay signed in</label><br />
+
+      <button id="btnSig" type="submit">SIGN IN</button> <br />
+      <a id="linkFish" href="#">Fargot Password?</a>
+    </form>
+
+    <script src="../src/events/events.js"></script>
+  </body>
+</html>

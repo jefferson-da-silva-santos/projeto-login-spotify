@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@media only screen and (max-height: 1368px) {
+  #mainForm {
+    margin-top: 260px;
+  }
+}
+
+@media only screen and (max-height: 1336px) {
+  #mainForm {
+    margin-top: 260px;
+  }
+  body {
+    height: 79vh;
+  }
+}
+
+@media only screen and (max-height: 1280px) {
+  #mainForm {
+    margin-top: 260px;
+  }
+  body {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-height: 1180px) {
+  #mainForm {
+    margin-top: 180px;
+  }
+  body {
+    height: 83vh;
+  }
+}
+
+@media only screen and (max-height: 1024px) {
+  #mainForm {
+    margin-top: 120px;
+  }
+  body {
+    height: 89vh;
+  }
+}
+
+@media only screen and (max-height: 932px) {
+  #mainForm {
+    margin-top: 150px;
+  }
+  body {
+    height: 84vh;
+  }
+}
+
+@media only screen and (max-height: 896px) {
+  #mainForm {
+    margin-top: 150px;
+  }
+  body {
+    height: 83vh;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  #mainForm {
+    margin-top: 130px;
+  }
+  body {
+    height: 84vh;
+  }
+}
+
+@media only screen and (max-height: 740px) {
+  #mainForm {
+    margin-top: 100px;
+  }
+  body {
+    height: 86.5vh;
+  }
+}
+
+@media only screen and (max-height: 667px) {
+  #mainForm {
+    margin-top: 90px;
+  }
+  body {
+    height: 86.5vh;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  #mainForm {
+    margin-top: 80px;
+  }
+  body {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-height: 599px) {
+  #mainForm {
+    margin-top: 80px;
+  }
+  body {
+    height: 86.5vh;
+  }
+}
+
+@media only screen and (min-height: 542px) and (max-height: 544.55px) {
+  #mainForm {
+    margin-top: 35px;
+  }
+  body {
+    height: 93.5vh;
+  }
+}
+
+@media only screen and (min-height: 300px) and (max-height: 500px) {
+  #mainForm {
+    margin-top: 3px;
+    height: 300px;
+  }
+  body {
+    height: 180vh;
+    padding-top: 2px;
+  }
+  img {
+    margin-top: 0px;
+  }
+  h1 {
+    margin-bottom: 15px;
+  }
+  input[value="Username"],
+  input[value="Password"] {
+    margin-bottom: 0;
+  }
+
+  button {
+    margin-bottom: 12px;
+    margin-top: 11px;
+  }
+
+  .labels {
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+  }
+  nav {
+    margin-bottom: -12px;
+  }
+}
